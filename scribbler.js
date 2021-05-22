@@ -12,15 +12,18 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `scribbler
-            [Entry mode; press Ctrl+D to save and quit; press Ctrl+C to quit without saving]
+  var txt = `GeekWorks
+            [At GeekWorks we strive to create software products that touches human life]
 
-            ###todo for new year dinner party
+            ###our product development process
 
-            - milk
-            - butter
-            - green onion
-            - lots and lots of kiwis 🥝`;
+            - UX research
+            - UX design
+            - MVP developement
+            - User feedback
+            - Iterations
+            - New features;`
+
   var speed = 60;
 
   function typeItOut () {
